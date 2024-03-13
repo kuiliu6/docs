@@ -649,6 +649,7 @@
         - [list](/tidb-cloud/ticloud-serverless-export-list.md)
         - [cancel](/tidb-cloud/ticloud-serverless-export-cancel.md)
         - [download](/tidb-cloud/ticloud-serverless-export-download.md)
+    - [ai](/tidb-cloud/ticloud-ai.md)
     - config
       - [create](/tidb-cloud/ticloud-config-create.md)
       - [delete](/tidb-cloud/ticloud-config-delete.md)
