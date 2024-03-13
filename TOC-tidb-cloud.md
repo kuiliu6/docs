@@ -639,6 +639,16 @@
           - [local](/tidb-cloud/ticloud-import-start-local.md)
           - [s3](/tidb-cloud/ticloud-import-start-s3.md)
           - [mysql](/tidb-cloud/ticloud-import-start-mysql.md)
+      - backup
+        - [describe](/tidb-cloud/ticloud-serverless-backup-describe.md)
+        - [list](/tidb-cloud/ticloud-serverless-backup-list.md)
+      - [restore](/tidb-cloud/ticloud-serverless-restore.md)
+      - export
+        - [create](/tidb-cloud/ticloud-serverless-export-create.md)
+        - [describe](/tidb-cloud/ticloud-serverless-export-describe.md)
+        - [list](/tidb-cloud/ticloud-serverless-export-list.md)
+        - [cancel](/tidb-cloud/ticloud-serverless-export-cancel.md)
+        - [download](/tidb-cloud/ticloud-serverless-export-download.md)
     - config
       - [create](/tidb-cloud/ticloud-config-create.md)
       - [delete](/tidb-cloud/ticloud-config-delete.md)
