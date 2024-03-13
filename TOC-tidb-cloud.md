@@ -631,6 +631,14 @@
         - [list](/tidb-cloud/ticloud-branch-list.md)
         - [connect-info](/tidb-cloud/ticloud-branch-connect-info.md)
         - [shell](/tidb-cloud/ticloud-branch-shell.md)
+      - import
+        - [cancel](/tidb-cloud/ticloud-import-cancel.md)
+        - [describe](/tidb-cloud/ticloud-import-describe.md)
+        - [list](/tidb-cloud/ticloud-import-list.md)
+        - start
+          - [local](/tidb-cloud/ticloud-import-start-local.md)
+          - [s3](/tidb-cloud/ticloud-import-start-s3.md)
+          - [mysql](/tidb-cloud/ticloud-import-start-mysql.md)
     - config
       - [create](/tidb-cloud/ticloud-config-create.md)
       - [delete](/tidb-cloud/ticloud-config-delete.md)
@@ -639,15 +647,6 @@
       - [list](/tidb-cloud/ticloud-config-list.md)
       - [set](/tidb-cloud/ticloud-config-set.md)
       - [use](/tidb-cloud/ticloud-config-use.md)
-    - [connect](/tidb-cloud/ticloud-connect.md)
-    - import
-      - [cancel](/tidb-cloud/ticloud-import-cancel.md)
-      - [describe](/tidb-cloud/ticloud-import-describe.md)
-      - [list](/tidb-cloud/ticloud-import-list.md)
-      - start
-        - [local](/tidb-cloud/ticloud-import-start-local.md)
-        - [s3](/tidb-cloud/ticloud-import-start-s3.md)
-        - [mysql](/tidb-cloud/ticloud-import-start-mysql.md)
     - project
       - [list](/tidb-cloud/ticloud-project-list.md)
     - [update](/tidb-cloud/ticloud-update.md)
