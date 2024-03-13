@@ -3,7 +3,7 @@ title: ticloud serverless cluster delete
 summary: The reference of `ticloud serverless delete`.
 ---
 
-# ticloud serverless cluster delete
+# ticloud serverless delete
 
 Delete a serverless cluster from your project:
 

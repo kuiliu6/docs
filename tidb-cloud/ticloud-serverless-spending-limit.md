@@ -3,7 +3,7 @@ title: ticloud serverless cluster spending-limit
 summary: The reference of `ticloud serverless spending-limit`.
 ---
 
-# ticloud serverless cluster spending-limit
+# ticloud serverless spending-limit
 
 Set spending limit for a serverless cluster
 

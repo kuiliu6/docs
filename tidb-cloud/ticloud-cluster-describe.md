@@ -3,7 +3,7 @@ title: ticloud serverless cluster describe
 summary: The reference of `ticloud serverless describe`.
 ---
 
-# ticloud serverless cluster describe
+# ticloud serverless describe
 
 Get information about a serverless cluster (such as the cluster configurations, and cluster status):
 

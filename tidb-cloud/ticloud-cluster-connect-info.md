@@ -3,7 +3,7 @@ title: ticloud serverless cluster connect-info
 summary: The reference of `ticloud serverless connect-info`.
 ---
 
-# ticloud serverless cluster connect-info
+# ticloud serverless connect-info
 
 Get the connection string of a serverless cluster:
 

@@ -3,7 +3,7 @@ title: ticloud serverless cluster regions
 summary: The reference of `ticloud serverless regions`.
 ---
 
-# ticloud serverless cluster regions
+# ticloud serverless regions
 
 List all available regions for serverless clusters
 

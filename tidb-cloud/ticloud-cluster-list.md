@@ -3,7 +3,7 @@ title: ticloud serverless cluster list
 summary: The reference of `ticloud serverless list`.
 ---
 
-# ticloud serverless cluster list
+# ticloud serverless list
 
 List all serverless clusters in a project:
 

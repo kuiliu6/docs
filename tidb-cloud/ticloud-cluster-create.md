@@ -3,7 +3,7 @@ title: ticloud serverless create
 summary: The reference of `ticloud serverless create`.
 ---
 
-# ticloud serverless cluster create
+# ticloud serverless create
 
 Create a serverless cluster:
 

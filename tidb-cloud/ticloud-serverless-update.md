@@ -3,7 +3,7 @@ title: ticloud serverless cluster update
 summary: The reference of `ticloud serverless update`.
 ---
 
-# ticloud serverless cluster update
+# ticloud serverless update
 
 Update a serverless cluster:
 

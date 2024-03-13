@@ -3,7 +3,7 @@ title: ticloud serverless cluster shell
 summary: The reference of `ticloud serverless shell`.
 ---
 
-# ticloud serverless cluster shell
+# ticloud serverless shell
 
 Connect to a serverless cluster
 
