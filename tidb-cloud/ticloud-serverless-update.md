@@ -1,45 +1,47 @@
 ---
-title: ticloud serverless branch describe
-summary: The reference of `ticloud serverless branch describe`.
+title: ticloud serverless cluster update
+summary: The reference of `ticloud serverless update`.
 ---
 
-# ticloud serverless branch describe
+# ticloud serverless cluster update
 
-Get information about a branch (such as the endpoints, [user name prefix](/tidb-cloud/select-cluster-tier.md#user-name-prefix), and usages):
-
-```shell
-ticloud serverless branch describe [flags]
-```
-
-Or use the following alias command:
+Update a serverless cluster:
 
 ```shell
-ticloud serverless branch get [flags]
+ticloud serverless update [flags]
 ```
 
 ## Examples
 
-Get the serverless branch information in interactive mode:
+Update a serverless cluster in interactive mode:
 
 ```shell
-ticloud serverless branch describe
+ticloud serverless update
 ```
 
-Get the serverless branch information in non-interactive mode:
+Update displayName of a serverless cluster in non-interactive mode:
 
 ```shell
-ticloud serverless branch describe --branch-id <branch-id> --cluster-id <cluster-id>
+ticloud serverless update -c <cluster-id> --display-name <new-display-mame>
+```
+
+Update labels of a serverless cluster in non-interactive mode
+
+```shell
+ticloud serverless update -c <cluster-id> --labels "{\"label1\":\"value1\"}"
 ```
 
 ## Flags
 
 In non-interactive mode, you need to manually enter the required flags. In interactive mode, you can just follow CLI prompts to fill them in.
 
-| Flag                    | Description                       | Required | Note                                                 |
-|-------------------------|-----------------------------------|----------|------------------------------------------------------|
-| -b, --branch-id string  | The ID of the branch              | Yes      | Only works in non-interactive mode.                  |
-| -h, --help              | Help information for this command | No       | Works in both non-interactive and interactive modes. |
-| -c, --cluster-id string | The cluster ID of the branch      | Yes      | Only works in non-interactive mode.                  |
+| Flag                     | Description                                           | Required | Note                                                 |
+|--------------------------|-------------------------------------------------------|----------|------------------------------------------------------|
+| -c, --cluster-id string  | The ID of the cluster to be updated                   | Yes      | Only works in non-interactive mode.                  |
+| -n --display-name string | The new displayName of the cluster to be updated      | No       | Only works in non-interactive mode.                  |
+| --annotations string     | The annotations of the cluster to be added or updated | No       | Only works in non-interactive mode.                  |
+| --labels string          | The labels of the cluster to be added or updated      | No       | Only works in non-interactive mode.                  |
+| -h, --help               | Help information for this command                     | No       | Works in both non-interactive and interactive modes. |
 
 ## Inherited flags
 

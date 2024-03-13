@@ -614,18 +614,23 @@
       - [Spill to Disk](/tiflash/tiflash-spill-disk.md)
   - CLI
     - [Overview](/tidb-cloud/cli-reference.md)
-    - cluster
+    - serverless
       - [create](/tidb-cloud/ticloud-cluster-create.md)
       - [delete](/tidb-cloud/ticloud-cluster-delete.md)
       - [describe](/tidb-cloud/ticloud-cluster-describe.md)
       - [list](/tidb-cloud/ticloud-cluster-list.md)
       - [connect-info](/tidb-cloud/ticloud-cluster-connect-info.md)
-    - branch
-      - [create](/tidb-cloud/ticloud-branch-create.md)
-      - [delete](/tidb-cloud/ticloud-branch-delete.md)
-      - [describe](/tidb-cloud/ticloud-branch-describe.md)
-      - [list](/tidb-cloud/ticloud-branch-list.md)
-      - [connect-info](/tidb-cloud/ticloud-branch-connect-info.md)
+      - [update](/tidb-cloud/ticloud-serverless-update.md)
+      - [spending-limit](/tidb-cloud/ticloud-serverless-spending-limit.md)
+      - [regions](/tidb-cloud/ticloud-serverless-regions.md)
+      - [shell](/tidb-cloud/ticloud-serverless-shell.md)
+      - branch
+        - [create](/tidb-cloud/ticloud-branch-create.md)
+        - [delete](/tidb-cloud/ticloud-branch-delete.md)
+        - [describe](/tidb-cloud/ticloud-branch-describe.md)
+        - [list](/tidb-cloud/ticloud-branch-list.md)
+        - [connect-info](/tidb-cloud/ticloud-branch-connect-info.md)
+        - [shell](/tidb-cloud/ticloud-branch-shell.md)
     - config
       - [create](/tidb-cloud/ticloud-config-create.md)
       - [delete](/tidb-cloud/ticloud-config-delete.md)

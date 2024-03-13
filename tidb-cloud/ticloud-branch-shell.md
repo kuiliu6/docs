@@ -1,34 +1,40 @@
 ---
-title: ticloud serverless branch describe
-summary: The reference of `ticloud serverless branch describe`.
+title: ticloud serverless branch shell
+summary: The reference of `ticloud serverless branch shell`.
 ---
 
-# ticloud serverless branch describe
+# ticloud serverless branch shell
 
-Get information about a branch (such as the endpoints, [user name prefix](/tidb-cloud/select-cluster-tier.md#user-name-prefix), and usages):
-
-```shell
-ticloud serverless branch describe [flags]
-```
-
-Or use the following alias command:
+Connect to a serverless branch
 
 ```shell
-ticloud serverless branch get [flags]
+ticloud serverless branch shell [flags]
 ```
 
 ## Examples
 
-Get the serverless branch information in interactive mode:
+Connect to a serverless branch in interactive mode:
 
 ```shell
-ticloud serverless branch describe
+ticloud serverless branch shell
 ```
 
-Get the serverless branch information in non-interactive mode:
+Connect to a serverless branch with default user in non-interactive mode:
 
 ```shell
-ticloud serverless branch describe --branch-id <branch-id> --cluster-id <cluster-id>
+ticloud serverless branch shell -c <cluster-id> -b <branch-id>
+```
+
+Connect to a serverless branch with default user and password in non-interactive mode:
+
+```shell
+ticloud serverless branch shell -c <cluster-id> -b <branch-id> --password <password>
+```
+
+Connect to a serverless branch with specific user and password in non-interactive mode:
+
+```shell
+ticloud serverless branch shell -c <cluster-id> -b <branch-id> -u <user-name> --password <password>
 ```
 
 ## Flags
@@ -37,9 +43,11 @@ In non-interactive mode, you need to manually enter the required flags. In inter
 
 | Flag                    | Description                       | Required | Note                                                 |
 |-------------------------|-----------------------------------|----------|------------------------------------------------------|
-| -b, --branch-id string  | The ID of the branch              | Yes      | Only works in non-interactive mode.                  |
+| -b, --branch-id string  | Branch ID                         | Yes      | Only works in non-interactive mode.                  |
+| -c, --cluster-id string | Cluster ID                        | Yes      | Only works in non-interactive mode.                  |
 | -h, --help              | Help information for this command | No       | Works in both non-interactive and interactive modes. |
-| -c, --cluster-id string | The cluster ID of the branch      | Yes      | Only works in non-interactive mode.                  |
+| --password              | The password of the user          | No       | Only works in non-interactive mode.                  |
+| -u, --user string       | A specific user for login         | No       | Only works in non-interactive mode.                  |
 
 ## Inherited flags
 
