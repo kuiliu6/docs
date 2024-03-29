@@ -1,0 +1,35 @@
+My thoughs for qa/testing initial tasks
+Limeline plan:
+Spends two weeks know our product tech inside and dev/cicd/testing status with hands-on try.
+Lead evaluation of outside qa/testing reference relavent to ours, current targets in radar: kafka, ksqldb,TiDB.
+review,dicussion and define our adoption of which as references
+
+
+****Kafka qa/testing assets:
+
+Unit/integration tests, test coverage. code quality checks(static analysis), Dependency Analysis, using Vagrant
+./gradlew test # runs both unit and integration tests
+./gradlew unitTest
+./gradlew integrationTest
+
+https://developer.hashicorp.com/vagrant/intro
+
+System Integration & Performance Testing
+https://github.com/apache/kafka/blob/trunk/tests/README.md
+
+Ducktape is framework, contains tools for running system integration and performance tests.
+https://github.com/confluentinc/ducktape
+http://ducktape.readthedocs.io/
+
+****Ksqldb qa/testing assets
+Ksqldb functional test
+KSQL Query Validation Tests
+https://github.com/confluentinc/ksql/tree/master/ksqldb-functional-tests
+Non-trivial changes should include unit tests covering the new functionality and potentially function tests.
+All SQL syntax changes and enhancements should come with appropriate function tests.
+Bug fixes should include a unit test or integration test potentially function tests proving the issue is fixed.
+Contribution guide and About breaking changes
+https://github.com/confluentinc/ksql/blob/master/CONTRIBUTING.md#breaking-changes
+
+
+****TiDB qa/testing assets
